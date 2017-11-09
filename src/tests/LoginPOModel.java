@@ -28,6 +28,7 @@ public class LoginPOModel {
 		// Get login confirmation
 		DashboardPage dashboardPage = new DashboardPage(driver);
 		String conf = dashboardPage.getConfirmation();
+		
 		Assert.assertTrue(conf.contains("Logged in successfully"));
 		
 		// Close driver
