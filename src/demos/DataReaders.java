@@ -27,7 +27,7 @@ public class DataReaders {
 		String[][] data = utilities.Excel.get(filename);
 		
 		for (String[] record : data) {
-			System.out.println("\nNEW RECORD");
+			System.out.println("\nNEW RECORD");	
 			for (String field : record) {
 				System.out.println(field);				
 			}
